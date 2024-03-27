@@ -1,0 +1,181 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
+    color: #333;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background: #884d00;
+    padding: 1rem 0;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+}
+
+nav ul {
+    padding: 0;
+    list-style: none;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #333;
+}
+
+section {
+    padding: 20px;
+}
+
+label {
+    display: block;
+    margin-bottom: .5rem;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+textarea {
+    width: 100%;
+    padding: .8rem;
+    margin-bottom: 1rem;
+    border: 1px solid #ccc;
+}
+
+button {
+    padding: 10px 15px;
+    background: #e0e0e0;
+    border: 0;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #c0c0c0;
+}
+/* Modal-Stil */
+.modal {
+    display: none; /* Versteckt das Modal standardmäßig */
+    position: fixed; /* Bleibt an Ort und Stelle */
+    z-index: 1; /* Situated above other content */
+    left: 0;
+    top: 0;
+    width: 100%; /* Volle Breite */
+    height: 100%; /* Volle Höhe */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+    padding-top: 100px; /* Location of the box */
+  }
+  
+  /* Modal Content */
+  .modal-content {
+    background-color: #fefefe;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%;
+    max-width: 500px; /* Mobile Responsive */
+  }
+  
+  /* The Close Button */
+  .close-button {
+    color: #aaaaaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+  }
+  
+  .close-button:hover,
+  .close-button:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+  }
+  .menu-container {
+    width: 100%;
+}
+
+.menu-item {
+    border: 1px solid #ddd;
+    margin-bottom: 15px;
+    cursor: pointer;
+}
+
+.menu-image {
+    width: 100%;
+    height: auto;
+}
+
+.menu-description {
+    padding: 10px;
+    background-color: #f9f9f9;
+}
+
+.menu-price {
+    font-weight: bold;
+}
+
+body, html {
+    height: 100%;
+    margin: 0;
+}
+
+.video-container {
+    position: relative;
+    overflow: hidden;
+    color: white; /* Für eine bessere Lesbarkeit, je nach Farbpalette des GIFs */
+}
+
+.background-gif {
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    opacity: 0.5; /* Passe die Deckkraft an, um die Lesbarkeit des Textes zu gewährleisten */
+}
+
+.content {
+    position: relative;
+    z-index: 1;
+    padding: 20px;
+    text-align: center; /* Zentriere den Text über dem GIF */
+    text-shadow: 0 0 8px #000; /* Füge einen Textschatten hinzu, um die Lesbarkeit zu verbessern */
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    background: rgba(0, 0, 0, 0.5); /* Ein halbtransparenter Hintergrund für den Footer */
+    padding: 10px 0;
+}
+
+
+footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background: rgba(255, 184, 113, 0.9); /* leicht transparenter Hintergrund für Lesbarkeit */
+    text-align: center;
+}
+
+.team-photo {
+    width: 30%; /* or any other value */
+    height: auto;
+  }
+  

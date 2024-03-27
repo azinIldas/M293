@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kontakt - Beispiel Bäckerei</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Beispiel Bäckerei</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Startseite</a></li>
+                <li><a href="about.html">Über uns</a></li>
+                <li><a href="menu.html">Menü</a></li>
+                <li><a href="blog.html">Blog</a></li>
+                <li><a href="contact.html">Kontakt</a></li>
+                <li><a href="jobs.html">Jobs</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="contact">
+            <h2>Kontaktieren Sie uns</h2>
+            <form id="contactForm">
+                <label for="firstName">Vorname:</label>
+                <input type="text" id="firstName" name="firstName" required>
+
+                <label for="lastName">Nachname:</label>
+                <input type="text" id="lastName" name="lastName" required>
+                
+                <label for="phone">Telefon (optional):</label>
+                <input type="tel" id="phone" name="phone">
+                
+                <label for="email">E-Mail:</label>
+                <input type="email" id="email" name="email" required>
+                
+                <label for="subject">Thema:</label>
+                <input type="text" id="subject" name="subject" required>
+                
+                <label for="message">Text:</label>
+                <textarea id="message" name="message" required></textarea>
+                
+                <button type="submit">Senden</button>
+            </form>
+        </section>
+    </main>
+    <div id="confirmationModal" class="modal">
+        <div class="modal-content">
+          <span class="close-button">&times;</span>
+          <p>Vielen Dank für Ihre Nachricht! Wir werden uns so schnell wie möglich bei Ihnen melden.</p>
+        </div>
+      </div>
+    <script src="script.js"></script>
+</body>
+</html>
