@@ -178,4 +178,38 @@ footer {
     width: 30%; /* or any other value */
     height: auto;
   }
-  
+  .menu-image {
+    width: 15%; /* or any other value */
+    height: auto;
+  } 
+
+  /* Button Styles */
+.btn {
+    display: inline-block;
+    background: #e2a03f;
+    color: #fff;
+    padding: 10px 20px;
+    margin: 10px 0;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: background 0.3s ease;
+}
+
+.btn:hover {
+    background: #f4e04d;
+}
+
+/* Jobs Section Styles */
+#jobs-section {
+    background: #f9f9f9;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+.job-inquiry {
+    background: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    margin-top: 20px;
+}
