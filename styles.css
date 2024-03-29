@@ -32,6 +32,16 @@ nav ul li a {
     text-decoration: none;
     color: #333;
 }
+nav ul li a {
+    text-decoration: none;
+    color: #000000; /* oder welche Farbe der Text auch immer haben soll */
+    /* weitere Stile */
+}
+
+nav ul li a.active {
+    border-bottom: 2px solid #000000; /* Schwarz für die Unterstreichung */
+    padding-bottom: 5px; /* Etwas Abstand zum Text */
+}
 
 section {
     padding: 20px;

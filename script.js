@@ -25,3 +25,14 @@ document.addEventListener('DOMContentLoaded', function() {
         }
     };
 });
+document.addEventListener('DOMContentLoaded', function () {
+    // Erhalte alle Links in der Navigationsleiste
+    var links = document.querySelectorAll('nav ul li a');
+    
+    // Durchlaufe alle Links und setze die Klasse 'active' auf den Link, der der aktuellen URL entspricht
+    links.forEach(function(link) {
+        if (link.href === window.location.href) {
+            link.classList.add('active');
+        }
+    });
+});
